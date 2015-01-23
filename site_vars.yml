@@ -15,7 +15,7 @@ app_branch: master
 # Frontend App Configs
 #
 fe_app: true
-fe_app_repo:
+fe_app_repo: git@github.com:BrandonMathis/fun-tester.git
 fe_app_branch: master
 
 #
