@@ -1,0 +1,42 @@
+# App specific configs & default var overrides
+#
+# Variables above the OVERRIDES must be set for provisioning
+# and deployment to work properly
+
+#
+# App Configs
+#
+app_name: vanilla
+app_repo: git@github.com:BrandonMathis/vanilla-rails-app.git
+app_env: production
+app_branch: master
+
+#
+# Frontend App Configs
+#
+fe_app: true
+fe_app_repo:
+fe_app_branch: master
+
+#
+# SSH Configs
+#
+# ssh PUBLIC keys for users that can access the box as 'deployer'
+dev_key_files:
+  - dev_keys/brandon.pub
+
+#
+# Database configs
+#
+# database_password: somepassword
+
+#
+# Delayed Job
+#
+# enabled_delayed_job: false
+
+############################################################
+# OVERRIDES
+#
+# place all overrides to vars/defaults.yml here
+############################################################

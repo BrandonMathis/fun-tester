@@ -1,0 +1,16 @@
+node_modules
+.tmp
+.sass-cache
+.DS_Store
+src/tif
+target
+src/svg/vectors
+dist
+src/scripts/tmp/
+client/components/vendor
+compile
+docs
+.groc.json
+.vagrant
+bin
+.bundle
